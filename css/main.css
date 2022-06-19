@@ -1,0 +1,566 @@
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-size: 0;
+}
+
+.top_menu{
+    margin: 0 auto;
+    display: flex;
+    width: 1200px;
+    height: 80px;
+}
+
+.top_menu .logo img{
+    width: auto;
+    height: 60px;
+    margin: 10px 0;
+}
+
+.top_menu .menu_total{
+    display: flex;
+    vertical-align: middle;
+    margin: auto 0;
+}
+
+.top_menu .menu{
+    padding-left: 84.4px;
+}
+
+.top_menu .sub_menu{
+    padding-left: 40px;
+}
+
+.top_menu .menu ul li{ 
+    list-style: none;
+    float: left;
+    padding-right: 38.5px;
+}
+
+.top_menu .sub_menu ul li{
+    list-style: none;
+    float: left;
+    padding-left: 38.5px;
+}
+
+.top_menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.top_menu ul li a:visited{
+    color: black;
+}
+
+.top .banner img{
+    width: 1920px;
+    height: 930px;
+}
+
+.top .banner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.banner .title{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-25%, -50%);
+    background-color: rgba(0, 0, 0, 0.15);
+    color: white;
+    margin: 0 auto;
+    height: auto;
+    width:auto;
+    padding: 30px 10px;
+    border-radius: 30px;
+}
+
+.banner .title .main{
+    margin: 0;
+}
+
+.banner .title .main h1{
+    margin: 0;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.banner .title a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.banner .title h2{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.banner .title .textbox{
+        text-align: center;
+        padding: 4px 10px 6px;
+        width: 160px;
+        font-weight: 700;
+        font-size: 24px;
+        background-color: #F90050;
+        border-radius: 30px;
+}
+
+.banner .title a:visited{
+    color: white;
+}
+
+.second{
+    margin: 150px auto 150px;
+    background-color: white;
+}
+
+.second .main{
+    margin: 0 auto 110px;
+    text-align: center;
+}
+
+.second .main h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.second .sub{
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.second .sub .logo img{
+    max-width: 495px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.second .sub .information{
+    margin: 0 auto;
+    position: relative;
+}
+
+.second .sub .information h2{
+    font-weight: 800;
+    font-size: 32px;
+    margin: 0;
+}
+
+.second .sub .information span{
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.second .sub .information h1{
+    font-size: 72px;
+    font-weight: 900;
+    color: #F90050;
+    margin: 20px 0;
+}
+
+.second .sub .information .sub_inf3{
+    width: 600px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.second .sub .information h3{
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0;
+}
+
+.third{
+    text-align: center;
+    background-color: #FFEDF3;
+    margin: 150px auto 150px;
+}
+
+.third .main{
+    padding-top: 150px;
+    padding-bottom: 110px;
+}
+
+.third .main h1{
+    color: black;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.third .sub{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 150px;
+}
+
+.third .sub .graph{
+    text-align: center;
+}
+
+.third .sub .graph_2{
+    position: absolute;
+    margin: 46px auto 0;
+    right: 0;
+}
+
+.third .sub h3{
+    margin: 25px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.third .sub h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.fourth{
+    margin: 150px auto 0;
+}
+
+.fourth span{
+    color: #F90050;
+}
+
+.fourth .main{
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.fourth .main h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.fourth .sub{
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+.fourth .sub h2{
+    float: left;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.fourth .sub .text{
+    margin: 0 auto;
+    right: 0;
+}
+
+.fourth .sub .text .sub_text{
+    padding: 175px 0 0 0;
+}
+
+
+.fourth .sub h3{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.fifth{
+    background-color: #F1F1F1;
+}
+
+.fifth .main{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 110px;
+}
+
+.fifth .main h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.fifth .sub{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 150px;
+}
+
+.fifth .sub .text{
+    text-align: left;
+    position: relative;
+}
+
+.fifth .sub .pic{
+    margin-left: auto;
+}
+
+.fifth .sub .pic img{
+    border-radius: 30px;
+}
+
+.fifth .sub h2{
+    float: left;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.fifth span{
+    color: #F90050;
+}
+
+.fifth .text .textbox{
+    position: absolute;
+    text-align: center;
+    padding: 4px 2px 6px;
+    width: 120px;
+    font-weight: 700;
+    font-size: 24px;
+    background-color: #F90050;
+    border-radius: 30px;
+    margin: 100px 0;
+}
+
+.fifth .textbox a{
+    color: white;
+    text-decoration: none;
+}
+
+.fifth .sub h3{
+    padding-top: 175px;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.sixth{
+    margin: 150px auto 0;
+}
+
+.sixth .main{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.sixth .main h1{
+    color: black;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.sixth .sub{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.sixth .sub .que{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.sixth .sub .que img{
+    margin: 30px;
+    height: 66px;
+    width: auto;
+}
+
+.sixth .sub .question{
+    position: relative;
+    height: 320px;
+    width: 320px;
+    padding: auto;
+    margin: 30px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #F90050;
+}
+
+.sixth .sub .question:hover{
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+/* .sixth .sub .question p{
+    text-align: center;
+    position: absolute;
+    margin: 0 auto;
+    opacity: 0;
+    color: black;
+    font-size: 6px;
+    font-weight: 300;
+} */
+
+.sixth .sub .question:hover h1{
+    opacity: 0;
+}
+
+/* .sixth .sub .question:hover p{ 
+    position: absolute;
+    margin: 0 auto;
+    font-size: 2px;
+    font-weight: 400;
+    color: white;
+    opacity: 1;
+    transition: 0.1s;
+    transform: scale(1.0);
+} */
+
+.hidden_text {
+    width: 320px;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-size: 2px;
+    font-weight: 400;
+    color: white;
+    opacity: 0;
+    transition: 0.1s;
+    transform: scale(1.0);
+}
+
+.sixth .sub .question:hover .hidden_text{
+    position: absolute;
+    font-size: 2px;
+    font-weight: 400;
+    color: white;
+    opacity: 1;
+    transition: 0.1s;
+    transform: scale(1.0);
+}
+
+.sixth .sub h1{
+    margin: 0 auto;
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+}
+
+.sixth .inquiry{
+    position: relative;
+    border-radius: 30px;
+    margin: 80px auto 110px;
+    max-width: 1200px;
+    background-color: #F90050;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sixth .inquiry .logo{
+    margin: 0 0 0 60px;
+}
+
+.sixth .inquiry .sub .text{
+    margin: 0 auto;
+    right: 0;
+}
+
+.inquiry .text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.inquiry .sub_text{
+    position: absolute;
+    right:15px;
+    bottom: 20px;
+}
+
+.inquiry .sub_text h2{
+    font-size: 24px;
+    color: white;
+}
+
+.sixth .inquiry .text h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    line-height: 60px;
+}
+
+
+.sixth .inquiry span{
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer{
+    display: flex;
+    margin: 0 auto;
+    height: 312px;
+    width: 1920px;
+    background-color: #6E6E6E;
+}
+
+.footer_inf{
+    position: relative;
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: left;
+}
+
+.footer_inf .logo{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer_inf .inf{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-40%,-50%);
+}
+
+.footer_inf .link{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 20px;
+}
+
+.footer_inf ul li{
+    list-style: none;
+}
+
+.footer_inf ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.footer h3{
+    margin: 0;
+    font-size: 16px;
+    color: rgb(227, 227, 227);
+    font-weight: 300;
+}
+
+h1{
+    margin: 0;
+}
+
